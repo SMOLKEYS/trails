@@ -1,0 +1,6 @@
+name: "trails"
+displayName: "Trails"
+author: "SMOLKEYS"
+description: "A mindustry mod that adds trails to all bullets."
+version: 1
+minGameVersion: 135
