@@ -5,7 +5,10 @@ Vars.content.bullets().each(e => {
     e.trailEffect = Fx.trailFade;
     e.trailLength = 10;
     
-    if(!e.backColor) return;
+    if(!e.backColor){
+        e.trailColor = e.lightColor;
+        return;
+    };
     
     e.trailColor = e.backColor;
 
